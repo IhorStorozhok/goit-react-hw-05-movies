@@ -1,6 +1,3 @@
-import react, { useState, useEffect } from 'react';
-import { NavLink, Outlet, useParams } from 'react-router-dom';
-import { getCast } from 'Api/Api';
 import s from './FilmCast.module.css';
 
 const FilmCast = ({ FilmCast }) => {

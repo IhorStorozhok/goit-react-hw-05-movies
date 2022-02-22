@@ -2,7 +2,6 @@ import react from 'react';
 import s from './Movies.module.css';
 import { useEffect, useState } from 'react';
 import {
-  Link,
   Outlet,
   useSearchParams,
   useLocation,

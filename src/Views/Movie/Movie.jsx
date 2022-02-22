@@ -1,20 +1,11 @@
-import react, { useState, useEffect } from 'react';
-import {
-  useParams,
-  Link,
-  Outlet,
-  useLocation,
-  useMatch,
-} from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useParams, Link, Outlet } from 'react-router-dom';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import Button from 'components/Button/Button';
 import { getInfo, getCast, getViews } from 'Api/Api';
-import s from './Movie.module.css';
 
 const Movie = ({ getCastFromMovie }) => {
   const [filmInfo, setFilminfo] = useState('');
-
-  const [filmView, setfilmView] = useState('');
 
   let params = +useParams().id;
 

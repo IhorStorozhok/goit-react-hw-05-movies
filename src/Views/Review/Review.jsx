@@ -1,5 +1,5 @@
-import react, { useState, useEffect } from 'react';
-import { NavLink, Outlet, useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { getViews } from 'Api/Api';
 
 const Review = ({ Review }) => {

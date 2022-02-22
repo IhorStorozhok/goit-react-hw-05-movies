@@ -1,7 +1,3 @@
-import react from 'react';
-
-import { useEffect, useState } from 'react';
-import { findTrends } from 'Api/Api';
 import { NavLink, Outlet, useParams } from 'react-router-dom';
 
 import s from './HomePage.module.css';
