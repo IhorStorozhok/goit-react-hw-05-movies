@@ -1,0 +1,15 @@
+.title {
+  margin-left: 15px;
+}
+li .trendsListItem {
+  padding: 3px;
+  list-style: none;
+}
+.trendsList {
+  padding-left: 0;
+}
+
+.active {
+  color: red;
+  background-color: aqua;
+}
